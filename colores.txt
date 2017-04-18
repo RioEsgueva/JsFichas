@@ -1,0 +1,18 @@
+﻿{"fichas":{
+  "preguntas": "es",
+  "respuestas": ["en","fr","ge","pt"],
+  "salto": 5,
+  "tabla_palabras": [
+    {"es":"amarillo", "en":"yellow", "fr":"jaune", "ge":"gelb", "pt":"amarelo"},
+    {"es":"azul", "en":"blue", "fr":"blau", "ge":"rot", "pt":"vermelho"},
+    {"es":"blanco", "en":"white", "fr":"blanche", "ge":"weib", "pt":"branco"},
+    {"es":"gris", "en":"grey", "fr":"gris", "ge":"grau", "pt":"gris"},
+    {"es":"marrón", "en":"brown", "fr":"marron", "ge":"braun", "pt":"marrom"},
+    {"es":"morado", "en":"purple", "fr":"violet, pourpre", "ge":"violet, lila, pourpurrot", "pt":"púrpura"},
+    {"es":"naranja", "en":"orange", "fr":"orange", "ge":"orange", "pt":"laranja"},
+    {"es":"negro", "en":"black", "fr":"noir", "ge":"schwarz", "pt":"preto"},
+    {"es":"rojo", "en":"red", "fr":"rouge", "ge":"rot", "pt":"vermelho"},
+    {"es":"rosa", "en":"pink", "fr":"rose", "ge":"rosa", "pt":"rosa"},
+    {"es":"verde", "en":"green", "fr":"vert", "ge":"grün", "pt":"verde"}
+  ]
+}}

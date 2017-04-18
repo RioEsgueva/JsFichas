@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>JsFichas</title><!--MultiLengüer-->
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <script src="jsfichas.js"></script>
+ <link rel="stylesheet" href="jsfichas.css" type="text/css" />
+</head>
+
+<body>
+<header>
+<h1 class="logo_txt"><span class="letra1">J</span>sFichas</h1>
+<hr>
+
+
+  <h2>Datos</h2>
+<p>Formato JSON:</p>
+  <form name="frm_datos_fichas">
+  <textarea rows="15" cols="60" name="txtarea_datos_fichas">{"fichas":{
+  "preguntas": "es",
+  "respuestas": ["en","fr","ge","pt"],
+  "salto": 5,
+  "tabla_palabras": [
+    {"es":"amarillo", "en":"yellow", "fr":"jaune", "ge":"gelb", "pt":"amarelo"},
+    {"es":"azul", "en":"blue", "fr":"blau", "ge":"rot", "pt":"vermelho"},
+    {"es":"blanco", "en":"white", "fr":"blanche", "ge":"weib", "pt":"branco"},
+    {"es":"gris", "en":"grey", "fr":"gris", "ge":"grau", "pt":"gris"},
+    {"es":"marrón", "en":"brown", "fr":"marron", "ge":"braun", "pt":"marrom"},
+    {"es":"morado", "en":"purple", "fr":"violet, pourpre", "ge":"violet, lila, pourpurrot", "pt":"púrpura"},
+    {"es":"naranja", "en":"orange", "fr":"orange", "ge":"orange", "pt":"laranja"},
+    {"es":"negro", "en":"black", "fr":"noir", "ge":"schwarz", "pt":"preto"},
+    {"es":"rojo", "en":"red", "fr":"rouge", "ge":"rot", "pt":"vermelho"},
+    {"es":"rosa", "en":"pink", "fr":"rose", "ge":"rosa", "pt":"rosa"},
+    {"es":"verde", "en":"green", "fr":"vert", "ge":"grün", "pt":"verde"}
+  ]
+}}</textarea><br>
+ <button type="button" onclick="procesar()">Empezar</button><br>
+<p>Ejemplo:<ul>
+<li><a class="btn_ruta" href="#" onclick="cargar_fichas('colores.txt'); return false;"><b>Colores (ES - EN, FR, GE, PT)</b></a></li>
+</ul>
+</p>
+ <!--<button type="button" onclick="mostrar_otra()">Otra ruta</button><br>-->
+  </form>
+<hr>
+<h2>Prueba</h2>
+<div id="fichas" class="fichas"><span>Para iniciar, pulse el botón empezar.</span>
+</div>
+<hr>
+
+
+<hr><footer>
+<p>Esta aplicación tiene licencia libre GPL v3.</br>
+Código fuente: <a href="https://github.com/pwnage2apps/cvmgraf">https://github.com/pwnage2apps/cvmgraf</a></br>
+Bitmessage: BM-2cT6X8N1us2jqkknP1AnjcHcCsZf5szUHY</br>
+Correo electrónico: Siento tener que escribirlo así, pero quiero evitar el correo basura. En el medio va la arroba, antes de ella va el texto "pwnage", el dígito DOS (en número, no en letras) y luego "APP" en minúsculas, y finalmente una S minúscula. Después de la arroba va lo mismo que hay antes pero añadiendo un punto, la plabra "ESY" en minúscula, y la extensión de España "ES" separada con otro punto. Si tienes dudas mira la dirección de esta página. Siento tener que ponerlo así, pero no tengo otro remedio si quiero evitar el correo basura y mantener una cierta accesibilidad.</br>
+Agradecimiento: <a href="http://www.hostinger.es/" target="_blank"><img src="http://www.hostinger.es/banners/es/hostinger-80x15-powered-1.gif" alt="Hosting Web" width="80" height="15" /></a></br>
+</footer>
+</body>
+</html>
